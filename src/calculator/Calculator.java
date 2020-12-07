@@ -28,7 +28,7 @@ public class Calculator
        // frame.pack();
        frame.setVisible(true);
       //  frame.setSize(300,300);
-        frame.setLocation(150, 100);
+        frame.setLocation(140, 100);
         
     }   
      
