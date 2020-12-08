@@ -97,7 +97,8 @@ public class Loan
         
         if( i <= y)
         {
-            sms += ("\n\t" + i + "\t" + String.valueOf(p) );
+            //sms += ("\n\t" + i + "\t" + String.valueOf(p) );
+            sms += String.format("\n\t%8d \t%.0f", i ,p);
             
             pp = (1+r)*p; 
             
@@ -113,7 +114,7 @@ public class Loan
     public String getReport()
     {
         String header = "";
-        header += "\n  Loan Amount($):\t" + p;
+        header += String.format("\n  Loan Amount($):\t%.0f", p);
         header += "\n  Intrest Rate(%):\t" + r*100;
         header += "\n  Term length (year): \t" + y;
         header += "\n  ______________________________________";
