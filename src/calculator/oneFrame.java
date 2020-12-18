@@ -55,7 +55,7 @@ public class oneFrame extends JFrame
     }
     
    
-        /** header */
+        /** header hhhh*/
     private void createTitle()
     {
 
